@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import Logo from "../assets/shop.png";
 
 function Navbar() {
   const state = useSelector((state) => state.handleCart);
@@ -9,7 +10,8 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
-            DA COLLECTION
+            <img className="myLogo" src={Logo} alt="" />
+            BER SHOP
           </NavLink>
           <button
             className="navbar-toggler"

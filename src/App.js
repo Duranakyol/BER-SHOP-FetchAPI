@@ -1,9 +1,14 @@
 import "./App.css";
-import Home from "./component/Home";
-import Navbar from "./component/Navbar";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
-import Products from "./component/Products";
-import Product from "./component/Product";
+import Products from "./components/Products";
+import Product from "./components/Product";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Cart from "./components/Cart";
 
 function App() {
   return (
@@ -14,6 +19,11 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/products" exact element={<Products />} />
           <Route path="/products/:id" exact element={<Product />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/register" exact element={<Register />} />
+          <Route path="/register" exact element={<Cart />} />
         </Routes>
       </Router>
     </>
