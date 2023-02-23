@@ -1,0 +1,60 @@
+.footerRow {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: #eee;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links {
+  display: flex;
+}
+
+.links img {
+  width: 120px;
+  height: 80px;
+  margin-top: 6px;
+  border-radius: 10px;
+}
+
+.links .text {
+  margin: 45px 0 0 10px;
+  font-weight: bold;
+}
+
+.mittel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.mittel a {
+  text-decoration: none;
+  color: #000;
+}
+
+.rechts {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+}
+
+.rechts h6 {
+  margin: 0;
+}
+
+.rechts a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}

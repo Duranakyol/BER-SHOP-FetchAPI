@@ -9,6 +9,8 @@ import Contact from "./components/Contact";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Cart from "./components/Cart";
+import Footer from "./components/Footer";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
           <Route path="/contact" exact element={<Contact />} />
           <Route path="/login" exact element={<Login />} />
           <Route path="/register" exact element={<Register />} />
-          <Route path="/register" exact element={<Cart />} />
+          <Route path="/cart" exact element={<Cart />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
