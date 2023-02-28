@@ -1,7 +1,7 @@
 import { Img } from "@chakra-ui/react";
 import React from "react";
 import { Col, Container, Navbar, Row } from "react-bootstrap";
-import "./Footer.css";
+import "../assets/styles/Footer.css";
 import {
   FaHome,
   FaMailBulk,
@@ -10,7 +10,7 @@ import {
   FaFacebook,
   FaTwitter,
 } from "react-icons/fa";
-import Logo from "../assets/shop.png";
+import Logo from "../assets/img/shop.png";
 
 function Footer() {
   return (

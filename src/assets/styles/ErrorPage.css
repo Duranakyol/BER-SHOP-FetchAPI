@@ -1,7 +1,7 @@
 .errorPage {
   display: flex;
   height: 100vh;
-  background-image: url("../assets/error.jpg");
+  background-image: url("../img/error.jpg");
   background-size: 100%;
   justify-content: center;
 }

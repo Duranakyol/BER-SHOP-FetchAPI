@@ -1,6 +1,6 @@
 import React from "react";
-import Error from "../assets/error.jpg";
-import "./ErrorPage.css";
+import Error from "../assets/img/error.jpg";
+import "../assets/styles/ErrorPage.css";
 
 const ErrorPage = () => {
   return (
