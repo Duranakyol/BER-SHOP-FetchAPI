@@ -10,7 +10,9 @@ function myCard() {
       <Card.Img variant="top" src={Shopping} />
       <Card.Body style={{ textAlign: "center" }}>
         <Card.Title>Sichere Einkauf!</Card.Title>
-        <Card.Text>Buraya da icerik hakkinda bir bilgi girebilliriz!</Card.Text>
+        <Card.Text>
+          In unserem Page können Sie sichere und schneller einkaufen.
+        </Card.Text>
         <Link to="/contact">
           <Button variant="primary">Contact</Button>
         </Link>

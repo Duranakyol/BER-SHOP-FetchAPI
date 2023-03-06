@@ -5,10 +5,17 @@
   align-items: center;
   width: 20rem;
   margin-left: 10rem;
-  background-color: #ddd;
+  background: transparent !important;
+  color: white;
 }
 
 .cardContainer img {
   width: 15rem;
   height: 15rem;
+}
+
+@media (max-width: 666px) {
+  .cardContainer {
+    margin: 0 auto;
+  }
 }

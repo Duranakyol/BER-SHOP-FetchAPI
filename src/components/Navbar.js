@@ -9,8 +9,8 @@ function BasicExample() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/">
-          <Nav.Link className="navbar-brand fw-bold fs-4" to="/">
+        <Navbar.Brand>
+          <Nav.Link className="navbar-brand fw-bold fs-4" href="/">
             <img className="myLogo" src={Logo} alt="" />
             BER SHOP
           </Nav.Link>
@@ -24,13 +24,13 @@ function BasicExample() {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <div className="buttons">
-            <Nav.Link to="/login" className="btn">
+            <Nav.Link href="/login" className="btn">
               <i className="fa fa-sign-in me-1"></i> Login
             </Nav.Link>
-            <Nav.Link to="/register" className="btn">
+            <Nav.Link href="/register" className="btn">
               <i className="fa fa-user-plus me-1"></i> Register
             </Nav.Link>
-            <Nav.Link to="/cart" className="btn">
+            <Nav.Link href="/cart" className="btn">
               <i className="fa fa-shopping-cart me-1"></i> Cart({state.length})
             </Nav.Link>
           </div>

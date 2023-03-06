@@ -14,7 +14,7 @@ body {
 }
 
 .routers {
-  margin-left: 12rem;
+  margin-left: 18rem;
 }
 
 .buttons {
@@ -34,7 +34,7 @@ body {
 
 @media (max-width: 1200px) {
   .routers {
-    margin-left: 1rem;
+    margin-left: 4.6rem;
   }
 }
 

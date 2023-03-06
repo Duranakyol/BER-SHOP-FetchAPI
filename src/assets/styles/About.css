@@ -24,3 +24,13 @@
   padding: 4rem 1rem 2rem 4rem;
   color: white;
 }
+
+@media (max-width: 666px) {
+  .about {
+    height: 100%;
+  }
+  .about .paragraph {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}
